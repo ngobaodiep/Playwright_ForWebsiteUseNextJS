@@ -1,0 +1,19 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:dev" : "npx playwright test --config=env/dev.config.ts",
+    "test:int" : "npx playwright test --config=env/int.config.ts",
+    "test:pta" : "npx playwright test --config=env/pta.config.ts",
+    "" : "",
+    "" : ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.26.0"
+  }
+}

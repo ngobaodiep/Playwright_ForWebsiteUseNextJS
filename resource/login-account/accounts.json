@@ -1,0 +1,38 @@
+{
+  "dir": "./session/",
+  "accounts_int": [
+    {
+      "user": "quydoan",
+      "password": "An12345678",
+      "filename": "int_quydoan.json"
+    },
+    {
+      "user": "linhht@bitnemo.vn",
+      "password": "Admin19101",
+      "filename": "int_linhht.json"
+    },
+    {
+      "user": "antoine-int",
+      "password": "An12345678",
+      "filename": "int_antoine.json"
+    }
+  ],
+  "accounts_pta": [
+    {
+      "user": "quydoan",
+      "password": "An12345678",
+      "filename": "quydoan.json"
+    },
+    {
+      "user": "",
+      "password": "",
+      "filename": ""
+    },
+    {
+      "user": "",
+      "password": "",
+      "filename": ""
+    }
+  ]
+
+}

@@ -1,0 +1,78 @@
+{
+  "setting" : {
+    "verticalMenu" : {
+      "toolsBtn" : "svg[data-icon=\"screwdriver-wrench\"]"
+    },
+    "tools" : {
+      "createToolsBtn" : "svg[data-testid=\"AddIcon\"]",
+      "totalToolsTxt" : "h2:right-of(h2:has-text(\"Tools\")) >> nth=0",
+      "searchByTextBox" : "input[aria-label=\"search\"]",
+      "searchByBtn" : "#searchBy-select",
+      "searchByListOptionAll" : "li[role=\"option\"]:visible",
+      "recordRowAll" : "div[role=\"row\"]:visible",
+      "rowFields" : {
+        "checkBox" : "input[aria-label=\"Select row\"]",
+        "reference" : "div[data-field=\"reference\"]",
+        "name" : "div[data-field=\"name\"]",
+        "group" : "div[data-field=\"groupsName\"]",
+        "category" : "div[data-field=\"mobileAssetCategoryDto\"]",
+        "battery" : "div[data-field=\"mobileAssetLithiumBattery\"]",
+        "batteryLevel" : "div[data-field=\"mobileAssetBatteryPercentage\"]",
+        "status" : "div[data-field=\"active\"]"
+      },
+      "popup" : {
+        "itself" : ".MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.css-v5vnej-MuiPaper-root-MuiPopover-paper:visible",
+        "editBtn" : "svg[data-testid=\"EditIcon\"]:visible",
+        "deleteBtn" : "svg[data-testid=\"DeleteIcon\"]:visible",
+        "name" : "h1[class=\"MuiTypography-root MuiTypography-h1 css-1pt5kav-MuiTypography-root\"]:visible",
+        "status" : "h6[class=\"MuiTypography-root MuiTypography-subtitle1 css-wtlihv-MuiTypography-root\"]:visible",
+        "reference" : "h6[class=\"MuiTypography-root MuiTypography-subtitle2 css-1pnt6c9-MuiTypography-root\"] >> nth=0",
+        "category" : "h6[class=\"MuiTypography-root MuiTypography-subtitle2 css-1pnt6c9-MuiTypography-root\"] >> nth=1",
+        "boxOtherInformation" : ".MuiBox-root css-nb5cbv:visible",
+        "closeBtn" : "button[aria-label=\"close-modal\"]"
+      },
+      "searchOption" : {
+        "allColumn" : "li:has-text(\"All Columns\")",
+        "reference" : "li:has-text(\"Reference\")",
+        "name" : "li:has-text(\"Name\")",
+        "category" : "li:has-text(\"Category\")",
+        "group" : "li:has-text(\"Group\")",
+        "lithiumBattery" : "li:has-text(\"Lithium Battery\")",
+        "batteryLevel" : "li:has-text(\"Battery Level\")",
+        "status" : "li:has-text(\"Status\")"
+      },
+      "createNew" : {
+        "nameInput" : "input[name=\"name\"]:visible",
+        "referenceInput" : "input[name=\"reference\"]:visible",
+        "manufacturerInput" : "input[name=\"manufacturer\"]:visible",
+        "model" : "input[name=\"model\"]:visible",
+        "categoryInput" : "#category-select:visible",
+        "categoryInputDefault" : ".MuiMenuItem-gutters.css-eau3rr-MuiButtonBase-root-MuiMenuItem-root:has-text(\"default category\"):visible",
+        "groupInput" : "#mui-component-select-group:visible",
+        "groupInputFirst" : ".MuiMenuItem-gutters Mui-selected.css-mi7jc4-MuiButtonBase-root-MuiMenuItem-root:visible",
+        "serialNumberInput" : "#serialNumber-select:visible",
+        "serialNumberInputFirst" : ".MuiMenuItem-gutters.css-eau3rr-MuiButtonBase-root-MuiMenuItem-root:visible",
+        "descriptionInput" : "textarea[name=\"description\"]:visible",
+        "activeBtn" : ".MuiSwitch-colorPrimary.css-1xp15zf-MuiButtonBase-root-MuiSwitch-switchBase:visible",
+        "cancel" : "button:has-text(\"Cancel\")",
+        "save" : "button:has-text(\"Create Tool\")"
+      }
+    },
+    "notification" : {
+      "rightSuccess" : ".css-lkgs36-MuiPaper-root-MuiSnackbarContent-root:visible"
+    }
+  },
+  "login" : {
+    "username" : "#username",
+    "password" : "#password",
+    "submitButton" : "button:has-text(\"Log in\")",
+    "errorMessage" : ".MuiTypography-root.MuiTypography-body2.css-xhsq47-MuiTypography-root",
+    "usernameHelper" : "#username-helper-text",
+    "passwordHelper" : "#password-helper-text"
+  },
+  "mainMenu" : {
+    "avatarIcon" : ".MuiAvatar-img.css-1pqm26d-MuiAvatar-img",
+    "logoutBtn" : ".MuiButton-root.MuiButton-outlined.MuiButton-outlinedError.MuiButton-sizeSmall.MuiButton-outlinedSizeSmall.MuiButton-fullWidth.MuiButtonBase-root.css-1to0yw9-MuiButtonBase-root-MuiButton-root",
+    "settingIcon" : "button[aria-label=\"settings\"]"
+  }
+}
