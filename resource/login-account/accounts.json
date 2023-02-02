@@ -3,24 +3,24 @@
   "accounts_int": [
     {
       "user": "quydoan",
-      "password": "An12345678",
+      "password": "aaa",
       "filename": "int_quydoan.json"
     },
     {
       "user": "linhht@bitnemo.vn",
-      "password": "Admin19101",
+      "password": "aaa",
       "filename": "int_linhht.json"
     },
     {
       "user": "antoine-int",
-      "password": "An12345678",
+      "password": "aaa",
       "filename": "int_antoine.json"
     }
   ],
   "accounts_pta": [
     {
       "user": "quydoan",
-      "password": "An12345678",
+      "password": "aaa",
       "filename": "quydoan.json"
     },
     {
